@@ -1,0 +1,36 @@
+.features__list {
+  margin: -15px;
+}
+
+.features__item {
+  width: 270px;
+  margin: 15px;
+}
+
+.features__icon {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--sect-team-bg-color);
+  align-items: center;
+  justify-content: center;
+}
+.features__svg {
+  width: 70px;
+  height: 70px;
+}
+
+.features__title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features__text {
+  margin-bottom: 4px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
