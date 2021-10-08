@@ -58,11 +58,11 @@
   background-color: $primary-bg-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-}
 
-.modal__closebtn:hover,
-.modal__closebtn:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .modal__icon {

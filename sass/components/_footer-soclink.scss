@@ -24,10 +24,9 @@
 .footer__socitem {
   justify-content: center;
   margin-right: 10px;
-}
-
-.footer__socitem:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .footer__soclink {
@@ -42,12 +41,12 @@
   align-items: center;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
-.footer__soclink:hover,
-.footer__soclink:focus {
-  background-color: $accent-color;
-}
 .footer__icon {
   fill: $white-text-color;
 }

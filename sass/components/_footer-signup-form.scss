@@ -38,10 +38,10 @@
   letter-spacing: 0.06em;
 
   color: $white-text-color;
-}
-.signup__btn:focus,
-.signup__btn:hover {
-  color: $white-text-color;
+  &:focus,
+  &:hover {
+    color: $white-text-color;
+  }
 }
 
 .signup__btn--margin {

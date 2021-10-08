@@ -4,10 +4,9 @@
 
 .task__title {
   margin-bottom: 50px;
-}
-
-.task__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .task__thumb {

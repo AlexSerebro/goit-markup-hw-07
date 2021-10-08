@@ -16,10 +16,9 @@
   flex-direction: column;
 
   margin-bottom: 10px;
-}
-
-.form__field:nth-child(5) {
-  margin-bottom: 20px;
+  &:nth-child(5) {
+    margin-bottom: 20px;
+  }
 }
 
 .form__label {
@@ -40,13 +39,11 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-}
 
-.form__input:focus,
-.form__input:hover,
-.form__textarea:hover,
-.form__textarea:focus {
-  border: 1px solid $accent-color;
+  &:focus,
+  &:hover {
+    border: 1px solid $accent-color;
+  }
 }
 
 .form__icon {
@@ -79,6 +76,10 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
 }
 
 .form__btn {

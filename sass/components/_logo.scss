@@ -16,12 +16,10 @@
 .logo__header--textcolor {
   color: $first-logo-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.logo--header--textcolor:hover,
-.logo--header--textcolor:focus,
-.logo__footer--textcolor:hover,
-.logo__footer--textcolor:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 // footer logo settings
@@ -32,4 +30,8 @@
 
 .logo__footer--textcolor {
   color: $white-text-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }

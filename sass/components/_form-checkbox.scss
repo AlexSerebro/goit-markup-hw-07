@@ -26,11 +26,11 @@
 
 .checkbox {
   position: absolute;
-}
 
-.checkbox:focus + .checkbox__item,
-.checkbox:hover + .checkbox__item {
-  fill: $accent-color;
+  &:focus + .checkbox__item,
+  &:hover + .checkbox__item {
+    fill: $accent-color;
+  }
 }
 
 .checkbox:checked + .checkbox__item {
